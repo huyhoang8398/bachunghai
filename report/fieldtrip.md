@@ -26,6 +26,21 @@ subject: "Bac Hung Hai Project"
   * Gain Adjustment Potentiometer
   * Power Indicator LED
 
+* The output of pH electrode is in millivolts, and the pH value of the relationship is shown as follows (25 Celcius)
+* pH = 7 - mV/ 57.14
+
+| Voltage(mV) | pH value | Voltage(mV) | pHvalue |
+|-------------|----------|-------------|---------|
+| 414.12      | 0.00     | -414.12     | 14.00   |
+| 354.96      | 1.00     | -354.96     | 13.00   |
+| 295.80      | 2.00     | -295.80     | 12.00   |
+| 236.64      | 3.00     | -236.64     | 11.00   |
+| 177.48      | 4.00     | -177.48     | 10.00   |
+| 118.32      | 5.00     | -118.32     | 9.00    |
+| 59.16       | 6.00     | -59.16      | 8.00    |
+| 0.00        | 7.00     | 0.00        | 7.00    |
+
+
 **Connecting Diagram**
 
   \begin{figure}
